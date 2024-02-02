@@ -1,7 +1,20 @@
-import { Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const poppins = Poppins({
+  subsets: ["latin"],
+  variable: "--poppins",
+  weight: ["400", "500", "600"],
+});
+const banglaborno = localFont({
+  src: "../font/Li Alinur Banglaborno Unicode.ttf",
+  variable: "--banglaborno",
+});
+const snigdha = localFont({
+  src: "../font/Li Alinur Snigdha Unicode.ttf",
+  variable: "--snigdha",
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -11,7 +24,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body
+        className={(poppins.variable, banglaborno.variable, snigdha.variable)}
+      >
+        {children}
+      </body>
     </html>
   );
 }
