@@ -1,18 +1,18 @@
 import Link from "next/link";
 import { FaRegCircleUser } from "react-icons/fa6";
-
+import logo from "../../asset/images/Nurse Quizz 1.png"
+import Image from "next/image";
 const Navbar = () => {
   return (
-    <div className="max-w-screen-xl mx-auto flex items-center justify-between ">
+<div className="bg-white my-2">
+<div className="max-w-screen-xl mx-auto flex items-center justify-between ">
       <div>
         <Link href={"/"}>
-          <h1 className="text-4xl font-bold text-white">
-            Nurse<span className="text-green-500">Quiz</span>
-          </h1>
+          <Image src={logo} alt="logo" width={150} height={200}/>
         </Link>
       </div>
       <div className="">
-        <ul className="flex gap-5 text-white">
+        <ul className="flex gap-5 text-[#3066B1]">
           <li>Home</li>
           <li>Admission Quiz</li>
           <li>Job Quiz</li>
@@ -21,11 +21,12 @@ const Navbar = () => {
         </ul>
       </div>
       <div>
-        <button className="inline-flex items-center gap-3 text-white">
+        <button className="inline-flex items-center gap-3 text-[#3066B1]">
           Log in <FaRegCircleUser />
         </button>
       </div>
     </div>
+</div>
   );
 };
 

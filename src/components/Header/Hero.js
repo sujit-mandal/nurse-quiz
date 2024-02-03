@@ -56,7 +56,7 @@ const Hero = () => {
               </div>
               <input
                 type="text"
-                className="bg-gray-50 text-2xl text-[#989898] rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-20 p-2.5 "
+                className="bg-gray-50 text-2xl text-[#989898] rounded-lg block w-full ps-20 p-2.5 "
                 placeholder="যেকোনো টপিক সার্চ করুন"
                 required
               />

@@ -9,8 +9,8 @@ module.exports = {
     extend: {
       fontFamily: {
         poppins: ["var(--poppins)"],
-        banglaborno: ["var(--banglaborno)"],
         snigdha: ["var(--snigdha)"],
+        banglaborno: ["var(--banglaborno)"],
       },
     },
   },
