@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
     <div className="bg-[#D2E6E4] mt-10">
-      <div className="max-w-screen-xl mx-auto py-10">
-        <div>
+      <div className="max-w-screen-xl mx-auto py-10 grid grid-cols-5 items-end gap-10">
+        <div className="col-span-2">
           <div className="flex items-center gap-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ const Footer = () => {
           </div>
 
           <div className="mt-7 space-y-3">
-            <p className="text-[#0B7077] font-light ">
+            <p className="text-[#0B7077] font-light w-2/3">
               এই ওয়েবসাইটে আপনার কোচিং প্রতিষ্টানকে অন্তর্ভূক্ত করতে যোগাযোগ
               করুন
             </p>
@@ -63,7 +63,9 @@ const Footer = () => {
                   fill="#0B7077"
                 />
               </svg>
-              <p className="text-[#0B7077] font-medium text-sm">Tel :+9229341037</p>
+              <p className="text-[#0B7077] font-medium text-sm">
+                Tel :+9229341037
+              </p>
             </div>
             <div className="flex items-center gap-3">
               <svg
@@ -83,7 +85,9 @@ const Footer = () => {
                   fill="#0B7077"
                 />
               </svg>
-              <p className="text-[#0B7077] font-medium text-sm">Response hours: 8 to 20</p>
+              <p className="text-[#0B7077] font-medium text-sm">
+                Response hours: 8 to 20
+              </p>
             </div>
             <div className="flex items-center gap-3">
               <svg
@@ -103,8 +107,52 @@ const Footer = () => {
                   fill="#0B7077"
                 />
               </svg>
-              <p className="text-[#0B7077] font-medium text-sm">Email: info@nursequizz.com</p>
+              <p className="text-[#0B7077] font-medium text-sm">
+                Email: info@nursequizz.com
+              </p>
             </div>
+          </div>
+        </div>
+        <div className="flex justify-between col-span-1">
+          <div>
+            <p className="text-[#0A033C] font-bold mb-5">Categories</p>
+            <ul className="space-y-3 text-[#0B7077]">
+              <li className="cursor-pointer">Admission</li>
+              <li className="cursor-pointer">Licensing</li>
+              <li className="cursor-pointer">Job Preparation</li>
+              <li className="cursor-pointer">General Knowledge</li>
+            </ul>
+          </div>
+          <div>
+            <p className="text-[#0A033C] font-bold mb-5">Links</p>
+            <ul className="space-y-3 text-[#0B7077]">
+              <li className="cursor-pointer">About us</li>
+              <li className="cursor-pointer">Article</li>
+            </ul>
+          </div>
+        </div>
+        <div className="col-span-2">
+          <p className="font-snigdha text-[#0A033C] text-center">
+            আমাদের অনলাইন নিউজলেটার পেতে সাবস্ক্রাইব করুন
+          </p>
+          <div className="mt-5">
+            <form>
+              <div className="relative">
+                <input
+                  type="email"
+                  className="block px-4 py-5 pl-10 w-full font-medium text-[#0B7077] bg-white rounded-2xl border border-gray-300 focus:ring-blue-500 focus:border-blue-500 placeholder:text-[#0B7077]"
+                  placeholder="Email"
+                  required
+                />
+                <button
+                  type="submit"
+                  className="text-white absolute right-2.5 bottom-2 bg-[#0B7077] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-2xl px-8 py-3 "
+                >
+                  Send
+                </button>
+              </div>
+            </form>
+            <p className="text-[#0B7077] font-semibold text-right text-sm mt-10">All Rights Reserved By NurseQuizz.</p>
           </div>
         </div>
       </div>
