@@ -11,14 +11,14 @@ const Jobs = () => {
           খুজে নিন স্বপ্নের চাকরি...
         </h1>
         <div className="flex gap-14 items-center mt-8">
-          <div className="flex gap-5 items-center py-5 px-10 border-2 border-dashed border-[#3066B1] rounded-md">
+          <div className="flex gap-5 items-center py-5 px-10 border-2 border-dashed border-[#3066B1] rounded-md hover:bg-green-200 cursor-pointer">
             <Image src={govtLogo} alt="govt logo" width={50} height={50} />
             <div className="text-xl text-[#3066B1] font-medium">
               <p>১৫</p>
               <p>সরকারি চাকরি</p>
             </div>
           </div>
-          <div className="flex gap-5 items-center py-5 px-10 border-2 border-dashed border-[#3066B1] rounded-md">
+          <div className="flex gap-5 items-center py-5 px-10 border-2 border-dashed border-[#3066B1] rounded-md hover:bg-green-200 cursor-pointer">
             <Image
               src={privatelogo}
               alt="private logo"

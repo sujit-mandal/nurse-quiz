@@ -1,6 +1,6 @@
 const Stats = () => {
   return (
-    <div className="bg-white flex items-center justify-between shadow-lg shadow-gray-400 max-w-screen-xl mx-auto py-16 px-7 rounded-md mt-20 font-snigdha">
+    <div className="bg-white flex items-center justify-between shadow-lg shadow-gray-400 max-w-screen-xl mx-auto py-14 px-7 rounded-md mt-20 font-snigdha">
       <div className="flex items-center gap-5">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -16,7 +16,7 @@ const Stats = () => {
           />
         </svg>
         <div className="text-[#FF007A]  font-semibold">
-          <h1 className=" text-[64px]">১০০০০+</h1>
+          <h1 className=" text-[54px]">১০০০০+</h1>
           <p className="text-[30px]">প্রশ্ন</p>
         </div>
       </div>
@@ -35,7 +35,7 @@ const Stats = () => {
           />
         </svg>
         <div className="text-[#3066B1]  font-semibold">
-          <h1 className=" text-[64px]">৫০০০+</h1>
+          <h1 className=" text-[54px]">৫০০০+</h1>
           <p className="text-[30px]">শিক্ষার্থী</p>
         </div>
       </div>
@@ -54,7 +54,7 @@ const Stats = () => {
           />
         </svg>
         <div className="text-[#FF00C7]  font-semibold">
-          <h1 className=" text-[64px]">২৫০+</h1>
+          <h1 className=" text-[54px]">২৫০+</h1>
           <p className="text-[30px]">মডেল টেস্ট</p>
         </div>
       </div>

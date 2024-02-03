@@ -5,6 +5,8 @@ import Jobs from "@/components/Jobs/Jobs";
 import JobPreparation from "@/components/JobPreparation/JobPreparation";
 import Licensing from "@/components/Licensing/Licensing";
 import Stats from "@/components/Stats/Stats";
+import Blog from "@/components/Blog/Blog";
+import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -21,6 +23,8 @@ export default function Home() {
       <Stats/>
       <CurrentAffairs/>
       <Jobs/>
+      <Blog/>
+      <Footer/>
     </main>
   );
 }
