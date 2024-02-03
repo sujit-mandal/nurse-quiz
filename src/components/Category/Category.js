@@ -2,7 +2,12 @@ import Image from "next/image";
 import bscLogo from "../../asset/images/Bsc.png";
 const Category = () => {
   return (
-    <div className="flex items-center gap-5 bg-white border-l-[6px] border-[#3066B1] py-6 px-5">
+    <div
+      className="flex items-center gap-5 bg-white border-l-[6px] border-[#3066B1] py-6 px-5 cursor-pointer rounded-r-sm"
+      style={{
+        boxShadow: "2px 2px 7px 0px rgba(0, 0, 0, 0.25)",
+      }}
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="50"

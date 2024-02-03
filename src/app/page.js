@@ -1,7 +1,10 @@
 import Admission from "@/components/Admission/Admission";
+import CurrentAffairs from "@/components/CurrntAffairs/CurrentAffairs";
 import Hero from "@/components/Header/Hero";
 import Jobs from "@/components/Jobs/Jobs";
+import JobPreparation from "@/components/JobPreparation/JobPreparation";
 import Licensing from "@/components/Licensing/Licensing";
+import Stats from "@/components/Stats/Stats";
 
 export default function Home() {
   return (
@@ -14,6 +17,9 @@ export default function Home() {
       <Hero />
       <Admission />
       <Licensing />
+      <JobPreparation/>
+      <Stats/>
+      <CurrentAffairs/>
       <Jobs/>
     </main>
   );

@@ -13,11 +13,11 @@ const Navbar = () => {
       </div>
       <div className="">
         <ul className="flex gap-5 text-[#3066B1]">
-          <li>Home</li>
-          <li>Admission Quiz</li>
-          <li>Job Quiz</li>
-          <li>Become a Examiner</li>
-          <li>About Us</li>
+          <li className="cursor-pointer hover:bg-[#3066B1] hover:text-white px-2 hover:rounded-sm">Home</li>
+          <li className="cursor-pointer hover:bg-[#3066B1] hover:text-white px-2 hover:rounded-sm">Admission Quiz</li>
+          <li className="cursor-pointer hover:bg-[#3066B1] hover:text-white px-2 hover:rounded-sm">Job Quiz</li>
+          <li className="cursor-pointer hover:bg-[#3066B1] hover:text-white px-2 hover:rounded-sm">Become a Examiner</li>
+          <li className="cursor-pointer hover:bg-[#3066B1] hover:text-white px-2 hover:rounded-sm">About Us</li>
         </ul>
       </div>
       <div>
